@@ -9,7 +9,7 @@ public class Problem6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int objectCount = Random.Range(5, 10);
+        int objectCount =5;
         for(int i = 0; i < objectCount; i++)
         {
             float randomX = Random.Range(minX, maxX);
