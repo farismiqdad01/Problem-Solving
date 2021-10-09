@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1636220094}
   - component: {fileID: 1636220093}
-  - component: {fileID: 1636220095}
+  - component: {fileID: 1636220096}
   m_Layer: 0
   m_Name: dot
   m_TagString: Untagged
@@ -192,7 +192,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1636220095
+--- !u!114 &1636220096
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,9 +201,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1636220092}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 838d43a7b53392243a428b173a52131e, type: 3}
+  m_Script: {fileID: 11500000, guid: f3295f4a628b6474d96249724d0b2be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
+  minX: -8.82
+  maxX: 8.82
+  minY: -4.93
+  maxY: 4.93
 --- !u!1 &2082752935
 GameObject:
   m_ObjectHideFlags: 0
